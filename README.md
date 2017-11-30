@@ -4,6 +4,7 @@
 
 
 [g8](https://github.com/foundweekends/giter8) template to get a Scalatra web service up and running quickly.
+This fork uses Scalate instead of Twirl as the default and creates the proper pages within webapp/.
 
 ## Use this template ##
 
