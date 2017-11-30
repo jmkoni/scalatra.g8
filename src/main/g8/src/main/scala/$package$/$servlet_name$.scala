@@ -1,11 +1,13 @@
 package $package$
 
 import org.scalatra._
+import scalate.ScalateSupport
 
-class $servlet_name$ extends ScalatraServlet {
+class $servlet_name$ extends ScalatraServlet with ScalateSupport {
 
   get("/") {
-    views.html.hello()
+    contentType="text/html"
+
+    ssp("/index")
   }
-  
 }
