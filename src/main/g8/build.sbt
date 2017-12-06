@@ -20,7 +20,7 @@ libraryDependencies ++= Seq(
   // database
   "postgresql" % "postgresql" % "9.1-901.jdbc4",
   "com.typesafe.slick" %% "slick" % "2.1.0",
-  "com.zaxxer" % "HikariCP-java6" % "2.3.8",
+  "org.scalikejdbc" % "scalikejdbc" % "3.1.0",
   // tests
   "org.scalatra" %% "scalatra-scalatest" % ScalatraVersion % "test",
   // yaml/password hashing
